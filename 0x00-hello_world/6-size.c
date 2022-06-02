@@ -7,14 +7,16 @@
 */
 int main(void)
 {
-int int_size;
 char char_size;
+int int_size;
+long int long_int_size;
+long long int long_long_int_size
 float float_size;
-double double_size;
 
-printf("The size of an int is: %lu.\n", sizeof(int_size));
-printf("The size of a char is: %lu.\n", sizeof(char_size));
-printf("The size of a float is: %lu.\n", sizeof(float_size));
-printf("The size of a double is: %lu.\n", sizeof(double_size));
+printf("Size of a char is: %lu byte(s)\n", sizeof(char_size));
+printf("Size of an int is: %lu byte(s)\n", sizeof(int_size));
+printf("Size of a long int: %lu byte(s)\n", (long int)sizeof(int_size));
+printf("Size of a long long int: %lu byte(s)\n", (long long int)sizeof(int_size));
+printf("Size of a float: %lu byte(s)\n", sizeof(float_size));
 return (0);
 }
