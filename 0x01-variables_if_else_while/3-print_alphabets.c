@@ -14,7 +14,7 @@ while (lc <= 'z')
 	putchar(lc);
 		lc++;
 }
-while (uc <= 'A')
+while (uc <= 'Z')
 {
 	putchar(uc);
 	uc++;
