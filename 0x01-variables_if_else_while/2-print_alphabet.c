@@ -3,16 +3,16 @@
 /**
  * main - Entry point
  * Description: prints alphabet in lowercase
- * Return (0)
+ * Return: 0
  */
 int main(void)
 {
-char ch = 'a';
+int ch = 'a';
 while (ch <= 'z')
 {
-	putchar("%c\n", ch)
+	putchar(ch);
 		ch++;
 }
-putchar(ch);
+putchar('\n');
 return (0);
 }
