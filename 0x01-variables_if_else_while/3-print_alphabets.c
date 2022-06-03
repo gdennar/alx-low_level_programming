@@ -17,7 +17,7 @@ while (lc <= 'z')
 while (uc < 'A')
 {
 	putchar(uc);
-	uc++
+	uc++;
 }
 putchar('\n');
 return (0);
