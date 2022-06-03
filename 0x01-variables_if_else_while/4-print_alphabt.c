@@ -8,7 +8,7 @@ int main(void)
 int lc = 'a';
 while (lc <= 'z')
 {
-if (lc == 'e' || 'q')
+if (lc == 'e' || lc == 'q')
 {
 	lc++;
 }
