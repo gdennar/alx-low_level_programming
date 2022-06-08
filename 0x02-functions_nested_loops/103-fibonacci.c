@@ -6,8 +6,8 @@
 int main(void)
 {
 	unsigned long fib1 = 0;
-        unsigned long fib2 = 1;
-        unsigned long fibsum;
+	unsigned long fib2 = 1;
+	unsigned long fibsum;
 	float tot_sum;
 
 	while (1)
