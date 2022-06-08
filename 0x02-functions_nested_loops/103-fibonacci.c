@@ -5,9 +5,9 @@
  */
 int main(void)
 {
-	unsigned log fib1 = 0;
-        unsigned log fib2 = 1;
-        unsigned log fibsum;
+	unsigned long fib1 = 0;
+        unsigned long fib2 = 1;
+        unsigned long fibsum;
 	float tot_sum;
 
 	while (1)
