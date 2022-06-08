@@ -13,7 +13,7 @@ while (j < 10)
 		_putchar(i);
 		i++;
 	}
+	_putchar('\n');
 	j++
 }
-_putchar('\n');
 }
