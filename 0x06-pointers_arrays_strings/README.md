@@ -1,0 +1,1 @@
+ABout arrays and strings
