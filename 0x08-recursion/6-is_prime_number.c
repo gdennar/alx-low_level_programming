@@ -21,7 +21,7 @@ int is_prime_number(int n)
 int getNumPrim(int num, int i)
 {
 	if (num == i)
-	return (i);	
+	return (1);	
 	
 	if (n % i == 0)
 		return (0);
