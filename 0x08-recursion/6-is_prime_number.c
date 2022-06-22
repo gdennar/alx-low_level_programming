@@ -9,7 +9,7 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (getNumPrim(n, 2));
+	return (getNumPrim(n, n - 1));
 }
 /**
  * getNumPrim - function that gets if num is 0 or  1
@@ -20,10 +20,10 @@ int is_prime_number(int n)
 
 int getNumPrim(int num, int i)
 {
-	if (num == i)
+	if (i == 1)
 	return (1);	
 	
-	if (n % i == 0)
+	if (n % i == 0 && i > 0)
 		return (0);
-		return (getNumPrim(num, i + 1));
+		return (getNumPrim(num, i - 1));
 }
