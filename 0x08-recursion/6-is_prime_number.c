@@ -23,9 +23,13 @@ int is_prime_number(int n)
 int getNumPrim(int num, int i)
 {
 	if (num == i)
-	return (1);	
-	
-	if (num % i == 0 && i > 0)
+	{
+		return (1);
+	}	
+	else if(num % i == 0 && i > 0)
+	{
 		return (0);
+	}
+	else
 		return (getNumPrim(num, i + 1));
 }
