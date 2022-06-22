@@ -23,7 +23,7 @@ int getNumPrim(int num, int i)
 	if (i == 1)
 	return (1);	
 	
-	if (n % i == 0 && i > 0)
+	if (num % i == 0 && i > 0)
 		return (0);
 		return (getNumPrim(num, i - 1));
 }
