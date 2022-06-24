@@ -2,12 +2,21 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - entry point
  * @argc: argument counter
  * @argv: argument array
- * Returns 0
+ * Return: 0
  */
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", argv[0])
+	int i;
+
+	for (i = 0; i < argc; i++)
+	{
+		if (argc == 1)
+			printf("%s\n", argv[i]);
+		else
+			break;
+	}
+	return (0);
 }
