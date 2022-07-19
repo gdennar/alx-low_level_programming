@@ -1,4 +1,6 @@
+#include <stddef.h>
 #include "lists.h"
+#include <stdlib.h>
 /**
  * reverse_listint - reverses a linked list
  * @head: head of a list
@@ -17,7 +19,7 @@ listint_t *reverse_listint(listint_t **head)
 		n = (*head)->next;
 		(*head)->next = p;
 		p = *head;
-		*head = n
+		*head = n;
 	}
 	*head = p;
 	return (*head);
